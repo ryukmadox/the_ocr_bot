@@ -35,14 +35,14 @@ def start(update,context):
     """Send a message when the command /start is issued."""
     global first
     first=update.message.chat.first_name
-    update.message.reply_text('Hi! '+str(first)+' \n\nWelcome to Optical Character Recognizer Bot. \n\nJust send a clear image to me and i will recognize the text in the image and send it as a message!\nTo get my contact details tap /contact')
+    update.message.reply_text('Hi! '+str(first)+' \n\nWelcome to Optical Character Recognizer Bot made by @arminarlert898. \n\nJust send a clear image to me and i will recognize the text in the image and send it as a message!\nTo get my contact details tap /contact')
 
 @run_async
 @send_typing_action
 def contact(update,context):
     """Send a message when the command /contact is issued."""
-    update.message.reply_text("Hey! You can find me on \n[Telegram](https://telegram.me/amit_y11)", parse_mode=telegram.ParseMode.MARKDOWN)
-    update.message.reply_text("Join channel : @botsbyamit \nIf you have any questions ask on Group : @botsbyamit_support")
+    update.message.reply_text("Hey! You can find me on \n[Telegram](https://telegram.me/arminarlert898)", parse_mode=telegram.ParseMode.MARKDOWN)
+    update.message.reply_text("Join channel : @CCTools_News \nIf you have any questions ask on Group : https://t.me/joinchat/aXXM5SBmd0dmYzg1)
 
 @run_async
 @send_typing_action
